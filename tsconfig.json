@@ -1,6 +1,8 @@
 {
     "include": ["./src/**/*"],
+    "exclude": ["node_modules", "out", ".next", "**/*.js", "**/*.jsx"],
     "compilerOptions": {
+      "types": ["node", "@emotion/react/types/css-prop"],
       "target": "esnext",
       "module": "esnext",
       "lib": ["dom", "es2017"],
@@ -10,6 +12,7 @@
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true,
       "noEmit": true,
+      "moduleResolution": "node",
       "skipLibCheck": true
     }
   }
