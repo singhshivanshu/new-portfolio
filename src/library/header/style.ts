@@ -12,3 +12,5 @@ export const navbar = css`
   justify-content: space-between;
   padding: 22px;
 `;
+
+export const navWrapper = css``
